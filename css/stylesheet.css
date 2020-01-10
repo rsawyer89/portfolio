@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rachael Sawyer</title>
+</head>
+      h1 {
+        color:#38383A;
+        text-align: center;
+      }
+
+      h2 {
+        color:#38383A;
+        border-style: bottom border;
+        border-bottom-style: solid;
+        border-color: #F6F7F3;
+        padding-top: 20px;
+        font-variant: small-caps;
+      }
+
+      h3 {
+        color:#657F6E;
+      }
+
+      ul {
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 24px;
+        color: white;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #38383A;
+        font-family: "Proxima Nova", proxima, sans-serif;
+      }
+
+      li {
+        float:left;
+      }
+
+      a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      p {
+        color:#38383A;
+        font-family: "Proxima Nova", proxima, sans-serif;
+        text-align:left;
+      }
+
+      article {
+        color:#C3B7AC;
+      }
+
+      body {
+        background-color:#E7E4DC;
+      }
+</html>
