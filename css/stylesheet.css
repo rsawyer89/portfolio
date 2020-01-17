@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <title>Rachael Sawyer</title>
 </head>
+
       h1 {
         color:#38383A;
-        text-align: center;
+        font-family: 'Montaga', serif;
+        font-weight: 400;
       }
 
       h2 {
@@ -15,7 +17,8 @@
         border-bottom-style: solid;
         border-color: #F6F7F3;
         padding-top: 20px;
-        font-variant: small-caps;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
       }
 
       h3 {
@@ -32,7 +35,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #38383A;
-        font-family: "Proxima Nova", proxima, sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
       }
 
       li {
@@ -47,10 +50,26 @@
         text-decoration: none;
       }
 
+      .flex-container{
+        display: flex;
+        justify-content: center;
+        font-family: 'Montaga', sans-serif;
+        font-weight: bolder;
+      }
+
       p {
         color:#38383A;
-        font-family: "Proxima Nova", proxima, sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
         text-align:left;
+
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px;
+        justify-content: center;
+
       }
 
       article {
