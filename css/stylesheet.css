@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Rachael Sawyer</title>
-</head>
-
-      h1 {
+h1 {
         color:#38383A;
         font-family: 'Montaga', serif;
         font-weight: 400;
       }
 
-      h2 {
+h2 {
         color:#38383A;
-        border-style: bottom border;
         border-bottom-style: solid;
         border-color: #F6F7F3;
         padding-top: 20px;
@@ -21,11 +13,11 @@
         font-weight: 600;
       }
 
-      h3 {
+h3 {
         color:#657F6E;
       }
 
-      ul {
+ul {
         font-weight: bold;
         font-variant: small-caps;
         font-size: 24px;
@@ -38,13 +30,13 @@
         font-family: 'Josefin Sans', sans-serif;
       }
 
-      li {
+li {
         float:left;
         border-right: 1px solid #bbb;
         border-left: 1px solid #bbb;
       }
 
-      a {
+a {
         display: block;
         color: white;
         text-align: center;
@@ -52,35 +44,35 @@
         text-decoration: none;
       }
 
-      li a:hover {
+li a:hover {
         background-color: green;
         font-size: 30px;
       }
 
-      .flex-container{
+.flex-container{
         display: flex;
         justify-content: center;
         font-family: 'Montaga', sans-serif;
         font-weight: bolder;
       }
 
-      p {
+p {
         font-family: 'Josefin Sans', sans-serif;
       }
 
-      aside:hover{
+aside:hover{
         color: #38383A;
         font-size: 30px;
       }
 
-      aside {
+aside {
         width: 70%;
         padding-left: .3rem;
         margin-left: .3rem;
         float: right;
       }
 
-      .container {
+.container {
         display: flex;
         flex-wrap: wrap;
         padding:10px;
@@ -88,35 +80,63 @@
 
       }
 
-      div a:hover {
+div a:hover {
         border: 5px inset white;
       }
 
-      a {
+a {
         transition-property: image-size;
         transition-delay: 6s;
         transition-timing-function: ease-out;
-        transition delay: 4s;
       }
 
-      img {
+img {
         border-radius: 8px;
         background-size: contain;
       }
 
-      article {
+article {
         color:#C3B7AC;
       }
 
-      body {
+body {
         background-color:#E7E4DC;
       }
 
-      footer {
+footer {
         display: flex;
         justify-content: center;
         padding: 2px;
         background-color: #38383A;
         color: #ffffff;
       }
-</html>
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+input[type=text] {
+  font-family: 'Josefin San', sans-serif;
+  font-size: 16px;
+  display: inline;
+}
+
+input[type=email] {
+  display: inline;
+}
+
+input[type=phone] {
+  display: inline;
+}
