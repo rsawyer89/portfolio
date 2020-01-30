@@ -111,6 +111,11 @@ footer {
         color: #ffffff;
       }
 
+.contact-information {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
@@ -123,7 +128,7 @@ input[type=submit] {
   width: 10%;
   background-color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
-  padding: 1rem;
+  margin-top: 2rem;;
   font-size: 16px;
 }
 
@@ -131,12 +136,15 @@ input[type=text] {
   font-family: 'Josefin San', sans-serif;
   font-size: 16px;
   display: inline;
+  margin-bottom: 2rem;
 }
 
 input[type=email] {
   display: inline;
+  margin-bottom: 3rem;
 }
 
-input[type=phone] {
+input[type=tel] {
   display: inline;
+  margin-bottom: 3rem;
 }
