@@ -24,7 +24,7 @@ ul {
         color: white;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 1rem;
         overflow: hidden;
         background-color: #38383A;
         font-family: 'Josefin Sans', sans-serif;
@@ -34,6 +34,7 @@ li {
         float:left;
         border-right: 1px solid #bbb;
         border-left: 1px solid #bbb;
+        padding: 1rem;
       }
 
 a {
